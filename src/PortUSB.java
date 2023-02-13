@@ -7,6 +7,22 @@ public class PortUSB {
         this.idPort = idPort;
     }
 
+    public double getType() {
+        return Type;
+    }
+
+    public void setType(double type) {
+        Type = type;
+    }
+
+    public char getIdPort() {
+        return idPort;
+    }
+
+    public void setIdPort(char idPort) {
+        this.idPort = idPort;
+    }
+
     @Override
     public String toString() {
         return "PortUSB{" +

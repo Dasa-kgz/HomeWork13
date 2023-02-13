@@ -1,7 +1,7 @@
 public class Display {
-    String manufacturer;
-    double Diagonal;
-    String MatrixType;
+    private String manufacturer;
+    private double Diagonal;
+    private String MatrixType;
 
     public Display(String manufacturer, double diagonal, String matrixType) {
         this.manufacturer = manufacturer;
